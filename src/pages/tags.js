@@ -9,7 +9,7 @@ const Tags = ({ data }) => {
   const newTags = setupTags(data.allContentfulRecipe.nodes)
   return (
     <Layout>
-      <SEO title="Tags" />
+      <SEO title="Tagi" />
       <div className="tagPageBg"></div>
       <main className="page ">
         <section className="tags-page">

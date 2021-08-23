@@ -11,8 +11,8 @@ require("dotenv").config({
 module.exports = {
   /* Your site config here */
   siteMetadata: {
-    title: "Simply Recipes",
-    description: "Nice and clean recipes site",
+    title: "Jarosław Gotuje",
+    description: "Pyszne przepisy",
     author: "@dzarek",
     person: { name: "john", age: 32 },
     simpleData: ["item 1", "item 2"],

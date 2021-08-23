@@ -31,7 +31,7 @@ export default function Home() {
   const recipes = data.allContentfulRecipe.nodes
   return (
     <Layout>
-      <SEO title="Home" />
+      <SEO title="Strona Główna" />
 
       <header className="hero">
         <div className="hero-container">

@@ -26,23 +26,23 @@ module.exports = {
     `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
-    // {
-    //   resolve: "gatsby-plugin-favicons",
-    //   options: {
-    //     logo: "./src/favicon.ico",
-    //     appName: "Jarosław Gotuje",
-    //     background: "#fff",
-    //     icons: {
-    //       android: true,
-    //       appleIcon: true,
-    //       appleStartup: true,
-    //       coast: false,
-    //       favicons: true,
-    //       yandex: false,
-    //       windows: false,
-    //     },
-    //   },
-    // },
+    {
+      resolve: "gatsby-plugin-favicons",
+      options: {
+        logo: "./src/favicon.png",
+        appName: "Jarosław Gotuje",
+        background: "#fff",
+        icons: {
+          android: true,
+          appleIcon: true,
+          appleStartup: true,
+          coast: false,
+          favicons: true,
+          yandex: false,
+          windows: false,
+        },
+      },
+    },
     // {
     //   resolve: `gatsby-plugin-netlify`,
     //   options: {
